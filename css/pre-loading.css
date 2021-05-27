@@ -1,0 +1,81 @@
+:root {
+	--main-bg: #f2f2f2;
+	--hightlight-color: #8bf1e7;
+	--darg-green: #025159;
+	--light-orange: #f1ce80;
+	--darg-orange: #f75e06;
+}
+
+.loader {
+	position: relative;
+}
+
+.loader::before,
+.loader::after {
+	content: "";
+	width: 2em;
+	height: 2em;
+	position: absolute;
+	border-radius: 4em;
+}
+
+.loader::before {
+	background: var(--darg-green);
+	left: 0;
+	transform: translateX(10px);
+	animation: GoRight 2s ease infinite;
+}
+
+.loader::after {
+	background: var(--darg-orange);
+	right: 0;
+	transform: translateX(-10px);
+	animation: GoLeft 1s ease infinite;
+}
+
+@keyframes GoRight {
+	0% {
+		transform: translateX(-10px);
+	}
+	50% {
+		transform: translateX(10px);
+		background: var(--hightlight-color);
+	}
+	100% {
+		transform: translateX(-10px);
+	}
+}
+@keyframes GoLeft {
+	0% {
+		transform: translateX(10px);
+	}
+	50% {
+		transform: translateX(-10px);
+		background: var(--light-orange);
+	}
+	100% {
+		transform: translateX(10px);
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.loader::before,
+	.loader::after {
+		content: "";
+		width: 3em;
+		height: 3em;
+		position: absolute;
+		border-radius: 4em;
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.loader::before,
+	.loader::after {
+		content: "";
+		width: 4em;
+		height: 4em;
+		position: absolute;
+		border-radius: 4em;
+	}
+}
