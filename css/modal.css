@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     border-top-left-radius: var(--border-radius-image);
     height: auto;
     position: relative;
@@ -81,6 +81,7 @@
     height: 160px;
     margin: 0 auto;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .image:hover {
@@ -183,7 +184,7 @@
         top: 15%;
         left: 5%;
         width: 90%;
-        height: 55vh;
+        height: 45vh;
         padding: 60px 50px;
     }
     .modalContent {
@@ -263,7 +264,7 @@
     }
     .fal {
         top: 40px;
-        left: 380px;
+        left: 350px;
     }
 }
 
@@ -313,7 +314,7 @@
     }
     .fal {
         top: 60px;
-        left: 480px;
+        left: 450px;
     }
     .img-excepert {
         width: 80%;
