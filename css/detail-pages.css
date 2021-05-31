@@ -23,13 +23,13 @@
 }
 
 body {
-	font-family: "PT sans", serif;
+	font-family: 'Times New Roman', Times, serif;
 	background: var(--main-bg);
 	font-size: 100%;
 }
 
 p {
-	font-family: "Lucida Sans", sans-serif;
+	font-family: 'Times New Roman', Times, serif;
 	font-size: 100%;
 	width: 100%;
 	line-height: 1rem;

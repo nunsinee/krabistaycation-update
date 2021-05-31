@@ -22,7 +22,8 @@ nav {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	/* padding: 20px 50px; */
+	font-family: "PT sans", serif;
+
 }
 
 nav .mainMenu {

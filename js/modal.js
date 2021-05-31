@@ -76,3 +76,4 @@ function displayContent(data)
 	excepert.innerHTML = `${data.excerpt.rendered}`;
 	mainPhoto.innerHTML = `<div class="hero-img" style="background-image: url(${data.fimg_url}" alt="${data.title.rendered}"><h1>Escape to Krabi,Thailand with Krabifolk</h1></div>`;
 }
+
