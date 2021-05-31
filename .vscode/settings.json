@@ -1,0 +1,64 @@
+{
+	"git.autofetch": true,
+	"editor.renderControlCharacters": true,
+	"editor.renderWhitespace": "all",
+	"liveServer.settings.donotShowInfoMsg": true,
+	"workbench.sideBar.location": "left",
+	"editor.autoIndent": "full",
+	"editor.fontSize": 10,
+	"editor.unfoldOnClickAfterEndOfLine": true,
+	"editor.fontWeight": "normal",
+	"window.nativeTabs": true,
+	"editor.insertSpaces": false,
+	"workbench.editor.highlightModifiedTabs": true,
+	"[html]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"html.format.indentInnerHtml": true,
+	"editor.tabSize": 2,
+	"prettier.useTabs": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.codeActionsOnSave": { "source.fixAll": true },
+	"editor.quickSuggestionsDelay": 800,
+	"editor.formatOnPaste": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"git.enableSmartCommit": true,
+	"liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+	"typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+	"javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+	"javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+	"html.format.unformatted": "",
+	"terminal.integrated.shell.osx": "/bin/bash",
+	"workbench.colorTheme": "Default Light+",
+	"liveshare.authenticationProvider": "GitHub",
+	"editor.formatOnSave": true,
+	"[json]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace"
+	},
+	// "liveServer.settings.CustomBrowser": "chrome",
+	"liveServer.settings.useLocalIp": true,
+	"window.zoomLevel": 3,
+	"files.autoSave": "afterDelay",
+	"editor.formatOnSaveMode": "modifications",
+	"editor.formatOnType": true,
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "off"
+	},
+	"workbench.settings.useSplitJSON": true,
+	"launch": {
+	
+		"configurations": [],
+		"compounds": []
+	}
+}
