@@ -343,6 +343,8 @@ footer a {
 }
 
 @media screen and (min-width: 768px) {
+
+
 	nav {
 		padding: var(--padding-left-right);
 		padding-top: 10px;
@@ -604,6 +606,7 @@ footer a {
 }
 
 @media only screen and (min-width: 1440px) and (max-width: 1920px) {
+
 	main {
 		margin: 0 auto;
 		width: 80%;
