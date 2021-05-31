@@ -582,6 +582,7 @@ button {
     }
     .post-item {
         height: 450px;
+        grid-template-rows: 1fr 0.2fr 0.2fr 0.3fr;
     }
     .p-view a,
     .p-view {
