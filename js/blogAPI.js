@@ -1,11 +1,11 @@
 const urlTenBlogs =
-	"https://krabistaycation.thaifolkinnorway.com/wp-json/wp/v2/posts/?per_page=6&offset=0";
+	"https://infokrabi.thaifolkinnorway.com/wp-json/wp/v2/posts/?per_page=6&offset=0";
 
 const urlMoreBlogs =
-	"https://krabistaycation.thaifolkinnorway.com/wp-json/wp/v2/posts/?per_page=6&offset=6";
+	"https://infokrabi.thaifolkinnorway.com/wp-json/wp/v2/posts/?per_page=6&offset=6";
 
 const urlAuthor =
-	"https://krabistaycation.thaifolkinnorway.com/wp-json/wp/v2/users/1";
+	"https://infokrabi.thaifolkinnorway.com/wp-json/wp/v2/users/1";
 
 const showPostItems = document.querySelector(".postItems-container");
 const showPostItems2 = document.querySelector(".postItems-container-more");

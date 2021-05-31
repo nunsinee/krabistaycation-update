@@ -2,8 +2,7 @@ const openModalImg = document.querySelector(".image");
 const modalImg = document.querySelector(".modalImg");
 
 const urlImg =
-	"https://krabistaycation.thaifolkinnorway.com/wp-json/wp/v2/media?parent=" +
-	id;
+	"https://infokrabi.thaifolkinnorway.com/wp-json/wp/v2/media?parent=" + id;
 
 async function getImages() {
 	try {

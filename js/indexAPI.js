@@ -2,14 +2,13 @@
 
 //use image from this api
 const urlContent =
-	"https://krabistaycation.thaifolkinnorway.com/wp-json/wc/v3/posts/";
+	"https://infokrabi.thaifolkinnorway.com/wp-json/wc/v3/posts/";
 
 //use link from this api
-const urlLink =
-	"https://krabistaycation.thaifolkinnorway.com/wp-json/wp/v2/posts/";
+const urlLink = "https://infokrabi.thaifolkinnorway.com/wp-json/wp/v2/posts/";
 
 const urlAuthor =
-	"https://krabistaycation.thaifolkinnorway.com/wp-json/wp/v2/users/1";
+	"https://infokrabi.thaifolkinnorway.com/wp-json/wp/v2/users/1";
 
 const showCard = document.querySelector(".slider");
 const showBlogItems = document.querySelector(".postlist-container");
