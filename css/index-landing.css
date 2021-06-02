@@ -103,6 +103,10 @@ main {
     z-index: 10;
     position: relative;
     top: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
 }
 
 .text p {
@@ -115,15 +119,16 @@ main {
 }
 
 .text a {
+    width: 150px;
     display: inline-block;
     font-size: 2rem;
-    padding: 5px 10px;
-    font-weight: 900px;
     background-color: rgba(255, 255, 255, 0.8);
-    border-radius: 15px;
-    margin-left: 10px;
+    border-radius: 10px;
     font-family: "Handlee", cursive;
     color: red;
+    text-align: center;
+    padding: 5px 10px;
+    margin-left: 30px;
 }
 
 h1 {
