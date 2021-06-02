@@ -41,7 +41,7 @@
 	},
 	// "liveServer.settings.CustomBrowser": "chrome",
 	"liveServer.settings.useLocalIp": true,
-	"window.zoomLevel": 3,
+	"window.zoomLevel": 4,
 	"files.autoSave": "afterDelay",
 	"editor.formatOnSaveMode": "modifications",
 	"editor.formatOnType": true,

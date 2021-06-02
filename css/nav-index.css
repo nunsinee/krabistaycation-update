@@ -116,7 +116,7 @@ nav .logo {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: rgba(0, 0, 0, .7)
+        background-color: rgba(251, 246, 246, 0.9)
     }
     nav .openMenu {
         display: block;
@@ -137,7 +137,7 @@ nav .logo {
         padding: 20px 0px;
     }
     nav .mainMenu li a.active {
-        color: var(--white);
+        color: var(--black);
         border-radius: 4px;
     }
     nav .logo img {
