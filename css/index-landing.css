@@ -27,10 +27,6 @@
         font-family: "PT sans", serif;
         background: var(--main-bg);
         font-size: 100%;
-        background-image: url(/images/design-img/index-bg-longtailboat-3.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
     
     nav {
