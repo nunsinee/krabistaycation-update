@@ -28,10 +28,9 @@ body {
 }
 
 p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 100%;
-    width: 100%;
-    line-height: 1rem;
+    font-family: "PT sans", serif;
+    font-size: 119%;
+    line-height: 27px;
     display: inline-block;
 }
 
@@ -85,7 +84,6 @@ main {
 }
 
 footer {
-    /* background: var(--main-bg); */
     grid-area: footer;
     border-radius: var(--main-radius);
     padding-top: var(--main-padding);
@@ -197,8 +195,9 @@ main h4 {
 }
 
 .content-box ul {
-    font-size: 100%;
-    padding: 10px 0 10px 20px;
+    font-family: "PT sans", serif;
+    font-size: 120%;
+    line-height: 27px;
     margin: 0;
     text-align: left;
 }
@@ -219,17 +218,6 @@ main h4 {
     border-radius: var(--border-radius-image);
     display: flex;
     flex-direction: column;
-}
-
-.text-box {
-    width: 100%;
-    padding: 10px 5px;
-    font-size: calc(100% + 1vw);
-}
-
-p {
-    line-height: 1.5rem;
-    padding: 10px 5px;
 }
 
 
@@ -288,7 +276,7 @@ footer a {
 /* video */
 
 .wp-block-embed__wrapper {
-    max-width: 250px;
+    max-width: 100%;
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 20px;
@@ -317,9 +305,6 @@ footer a {
     main h2 {
         font-size: 130%;
     }
-    main {
-        width: 375px;
-    }
 }
 
 @media screen and (min-width: 414px) {
@@ -329,17 +314,17 @@ footer a {
     main h2 {
         font-size: 130%;
     }
-    main {
-        width: 414px;
-    }
     .comment-respond {
         width: 320px;
     }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 430px) and (max-width: 750px) {
     .hero-img {
-        height: 120px;
+        max-width: 100%;
+    }
+    main {
+        max-width: 100%
     }
 }
 
@@ -394,7 +379,6 @@ footer a {
         font-size: 170%;
     }
     p {
-        line-height: 2.3rem;
         padding: 20px;
         margin: 0 auto;
     }
@@ -402,7 +386,6 @@ footer a {
     .content-box h3,
     .content-box h4 {
         padding: 15px 20px;
-        line-height: 3rem;
     }
     .content-box li {
         line-height: 3rem;
@@ -509,7 +492,6 @@ footer a {
         font-size: 180%;
     }
     p {
-        line-height: 2.5rem;
         width: 780px;
     }
     footer a {
@@ -598,7 +580,6 @@ footer a {
     p {
         width: 960px;
         align-content: center;
-        line-height: 2.5rem;
         margin: 0;
     }
     textarea {

@@ -22,7 +22,7 @@
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "PT sans", serif;
     background: var(--main-bg);
     font-size: 100%;
     height: auto;
@@ -133,15 +133,13 @@ main h2 {
 
 .text-box {
     width: 100%;
-    line-height: 2rem;
-    font-size: calc(100% + 1vw);
 }
 
 p {
     display: inline-block;
-    line-height: 2rem;
-    padding: 10px 5px;
-    width: 100%;
+    font-family: "PT sans", serif;
+    font-size: 119%;
+    line-height: 27px;
 }
 
 .gallery-box {
@@ -331,7 +329,6 @@ h4 {
     p {
         width: 960px;
         align-content: center;
-        line-height: 2.5rem;
         margin: 0;
     }
     .gallery-box {
