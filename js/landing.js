@@ -1,5 +1,5 @@
 const slideShowImage = document.querySelectorAll(".showcase .slideshow-img");
-const nextImageDelay = 2000;
+const nextImageDelay = 2500;
 let currentImageCount = 0;
 
 //slideShowImage[currentImageCount].style.display = "block";
