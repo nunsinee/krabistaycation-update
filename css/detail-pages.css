@@ -32,6 +32,7 @@ p {
     font-size: 119%;
     line-height: 27px;
     display: inline-block;
+    padding: 10px;
 }
 
 img {
@@ -163,6 +164,11 @@ main h4 {
     font-size: 100%;
     color: var(--heading);
     padding: 10px 0 20px 0;
+}
+
+.text-box {
+    width: 100%;
+    margin: 0 auto;
 }
 
 .content-box h2,
