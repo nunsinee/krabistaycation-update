@@ -1,3 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+:root {
+    --main-bg: #f2f2f2;
+    --hightlight-color: #03a696;
+    --heading: #025159;
+    --white: #ffffff;
+    --black: #000;
+    --medium-green: #3d8a8b;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     background-color: var(--main-bg);
     color: var(--black);
@@ -28,7 +44,7 @@ nav .mainMenu li a:hover {
 }
 
 nav .mainMenu li a.active {
-    color: var(--active-button);
+    color: red;
     font-weight: bold;
     align-items: center;
 }
