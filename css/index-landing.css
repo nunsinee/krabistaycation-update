@@ -148,7 +148,7 @@ footer a {
 
 @media screen and (min-width: 375px) {
     .text {
-        top: 25vh;
+        top: 20vh;
     }
     h1 {
         font-size: 150%;
