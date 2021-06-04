@@ -58,7 +58,7 @@
         align-content: space-between;
     }
     
-    .hero h2 {
+    .hero h1 {
         font-size: 90%;
         width: 100%;
         color: var(--black);
@@ -279,7 +279,7 @@
         .hero-img {
             height: 200px;
         }
-        .hero h2 {
+        .hero h1 {
             font-size: 120%;
             padding: 10px;
         }
@@ -350,7 +350,7 @@
         main h1 {
             font-size: 150%;
         }
-        .hero h2 {
+        .hero h1 {
             font-size: 130%;
         }
         footer a {
@@ -375,7 +375,7 @@
         .hero-img {
             height: 250px;
         }
-        .hero h2 {
+        .hero h1 {
             font-size: 180%;
             width: 100%;
         }
