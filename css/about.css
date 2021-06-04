@@ -140,6 +140,7 @@ p {
     font-family: "PT sans", serif;
     font-size: 119%;
     line-height: 27px;
+    padding: 10px;
 }
 
 .gallery-box {
