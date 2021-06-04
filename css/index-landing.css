@@ -10,10 +10,6 @@
     --white: #ffffff;
     --black: #000;
     --medium-green: #3d8a8b;
-    --border-radius-image: 5px;
-    --padding-left-right: 0 20px;
-    --main-padding: 10px 0 0 0;
-    --padding-left: 20px;
 }
 
 * {
@@ -79,7 +75,7 @@ main {
 
 .text {
     flex: 1;
-    max-width: 70%;
+    max-width: 60%;
     position: absolute;
     top: 20vh;
     display: flex;
@@ -92,8 +88,8 @@ main {
 .text p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
-    color: white;
-    padding: 0 20px;
+    color: black;
+    padding: 20px;
 }
 
 .text a {
@@ -170,9 +166,10 @@ footer a {
         padding: 0;
     }
     .text {
-        padding-left: 120px;
+        max-width: 60%;
         top: 30vh;
-        width: 100%;
+        padding: 20px;
+        left: 20%;
     }
     .fab {
         font-size: 200%;
@@ -199,6 +196,9 @@ footer a {
         top: 30vh;
         margin: 0 auto;
     }
+    .text a {
+        margin: 0 auto;
+    }
     h1 {
         font-size: 250%;
     }
@@ -209,7 +209,11 @@ footer a {
 
 @media only screen and (min-width: 1280px) {
     .text {
-        max-width: 50%;
+        max-width: 100%;
+        left: 30%;
+    }
+    h2 {
+        margin: 0 auto;
     }
 }
 
@@ -218,6 +222,7 @@ footer a {
         overflow: hidden;
     }
     .text {
-        max-width: 50%;
+        max-width: 100%;
+        left: 30%;
     }
 }
