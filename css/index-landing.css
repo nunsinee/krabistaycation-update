@@ -223,6 +223,7 @@ footer a {
     }
     .text {
         max-width: 100%;
-        left: 30%;
+        top: 40%;
+        left: 35%;
     }
 }
