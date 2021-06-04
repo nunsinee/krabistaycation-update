@@ -16,7 +16,7 @@
 }
 
 nav {
-    /* background-color: var(--main-bg); */
+    width: 100%;
     color: var(--black);
     display: flex;
     flex-wrap: wrap;
@@ -35,7 +35,7 @@ nav .mainMenu li a {
     text-transform: uppercase;
     font-size: 290%;
     font-weight: 800;
-    color: red;
+    color: var(--white);
 }
 
 nav .mainMenu li a:hover {
@@ -45,7 +45,7 @@ nav .mainMenu li a:hover {
 }
 
 nav .mainMenu li a.active {
-    color: var(--active-button);
+    color: red;
     font-weight: bold;
     align-items: center;
 }
@@ -71,6 +71,8 @@ nav .logo {
     margin: 6px;
     max-height: 100%;
     cursor: pointer;
+    filter: contrast(100%);
+    filter: brightness(100%);
 }
 
 @media (max-width: 1440px) {
@@ -135,9 +137,10 @@ nav .logo {
     }
     nav .mainMenu li a {
         padding: 20px 0px;
+        color: var(--active-button);
     }
     nav .mainMenu li a.active {
-        color: var(--black);
+        color: red;
         border-radius: 4px;
     }
     nav .logo img {

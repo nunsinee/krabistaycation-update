@@ -101,9 +101,9 @@ nav .logo {
 }
 
 @media (max-width: 500px) {
-    nav {
-        padding: 0px 10px;
-    }
+    /* nav {
+        padding: 0px 0px;
+    } */
     nav .mainMenu {
         display: none;
         flex-direction: column;
@@ -116,8 +116,11 @@ nav .logo {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        /* background-color: rgba(189, 243, 238, 0.959); */
         background-color: var(--hightlight-color);
         transition: top 0.5s ease;
+        top: 0;
+        width: 100%;
     }
     nav .openMenu {
         display: block;
